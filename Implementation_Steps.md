@@ -4,7 +4,7 @@
 # Setup Instructions
 ```
 
-![Three-Tier Architecture]
+Three-Tier Architecture
 
 
 **make sure you use your S3 bucket to store code and copy to webservers**
@@ -13,7 +13,7 @@
 Download the code from the Git repository:
 
 ```bash
-git clone https://github.com/Akshay-Joyboy/aws_3tier_architecture.git
+git clone https://github.com/Akshay-Joyboy/aws-projects.git
 ```
 
 ## App Server Setup: Launch an ec2 instance in APP subnet of Custom VPC
