@@ -75,7 +75,7 @@ Download application code from S3 and start the application:
 
 ```bash
 cd ~/
-aws s3 cp s3://aws-3tier-project/application-code/app-tier/ app-tier --recursive
+aws s3 cp s3://aws-3tier-project/aws-projects/application-code/app-tier/ app-tier --recursive
 
 cd ~/app-tier
 npm install
@@ -116,7 +116,7 @@ nvm install 16
 nvm use 16
 
 cd ~/
-aws s3 cp s3://aws-3tier-project/application-code/web-tier/ web-tier --recursive
+aws s3 cp s3://aws-3tier-project/aws-projects/application-code/web-tier/ web-tier --recursive
 
 cd ~/web-tier
 npm install
